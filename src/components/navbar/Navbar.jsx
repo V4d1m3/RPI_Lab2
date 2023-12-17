@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import LangDropdown from "../../LangDropdown";
+import LangDropdown from "../../LangDropdown.jsx";
 import languages from "../../languages";
 
 import s from "./Navbar.module.css";
