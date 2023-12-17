@@ -1,7 +1,6 @@
 import React from "react";
 import Dev from "../dev/Dev";
 import { useTranslation } from "react-i18next";
-
 import s from "./DevsInfo.module.css";
 
 const DevsInfo = (props) => {
