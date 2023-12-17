@@ -1,1 +1,8 @@
-/*:empty for now*/
+.scammer {
+  margin: 0 auto;
+}
+
+.scammer img {
+  height: 200px;
+  border: 2px solid black;
+}

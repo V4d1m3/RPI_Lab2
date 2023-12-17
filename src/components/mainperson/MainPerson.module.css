@@ -1,0 +1,25 @@
+.wrapper {
+  background-color: #ffffff;
+  color: #bdbdbd;
+  text-align: center;
+  background-image: url("../../img/background/paper.png");
+  display:run-in;
+  background-position: center;
+  height: 700px;
+}
+
+.date{
+  font-size: 25px;
+  text-decoration: none;
+  color: #353535;
+}
+
+
+h1{
+  font-family: Helvetica Neue;
+  font-size: 60px;
+  text-decoration: none;
+  color: #353535;
+  
+  padding-top: 10px;
+}
