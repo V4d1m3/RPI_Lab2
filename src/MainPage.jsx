@@ -1,4 +1,5 @@
 import React from "react";
+import PortalInfo from "./components/portalinfo/PortalInfo";
 import MainPerson from "./components/mainperson/MainPerson";
 import DevelopersInfo from "./components/devinfo/DevsInfo";
 import developersInfo from "./components/devinfo/developersInfo";
