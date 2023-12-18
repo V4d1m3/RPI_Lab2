@@ -17,14 +17,12 @@ const PersonalPage = (props) => {
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <div className={template.wrapper}>
-      <div className={template.frame}>
           <h1>{t(name)}</h1>
-      </div>
-      <div className={template.frameBirth}>
+    
         <h4>
           ({props.info.dateOfBirth} - {props.info.dateOfDeath})
         </h4>
-      </div>
+     
       <img src={props.info.imgPath} alt="" className={template.avatar} />
       <Timeline info={props.info} />
       <Photos photos={props.info.photos} />

@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { ReactComponent as WorkIcon } from "../../img/svgs/camera.svg";
-import { ReactComponent as SchoolIcon } from "../../img/svgs/book.svg"; //  НУЖНО  ЗАКОММИТИТЬ
+import { ReactComponent as SchoolIcon } from "../../img/svgs/book.svg"; 
 import { ReactComponent as ChildIcon } from "../../img/svgs/cubes.svg";
 
 const Timeline = (props) => {

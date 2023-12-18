@@ -19,25 +19,3 @@
   border: 2px solid rgb(248, 246, 246);
 }
 
-.frame {
-    position: absolute;
-    border-radius: 3%;
-    left: 900px;
-    top: 120px;
-    height:100px;
-    width: 600px;
-    background-color: white;
-   
-}
-
-.frameBirth{
-    
-  align-items: center;
-    position: absolute;
-    border-radius: 3%;
-    background-color: white;
-    left: 1100px;
-    top: 220px;
-    height:32px;
-    width: 200px;
-}
