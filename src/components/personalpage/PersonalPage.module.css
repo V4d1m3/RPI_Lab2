@@ -1,6 +1,7 @@
 .wrapper {
   text-align: center;
-  background-color: rgb(192, 168, 156);
+  background-image: url("/src/img/background/coin.jpg");
+  background-size: 3%;
 }
 
 .wrapper h1{
@@ -17,3 +18,4 @@
   height: 200px;
   border: 2px solid rgb(248, 246, 246);
 }
+

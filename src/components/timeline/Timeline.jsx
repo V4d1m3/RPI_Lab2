@@ -19,7 +19,7 @@ const Timeline = (props) => {
         return (
           <VerticalTimelineElement
             key={element.id}
-            date={element.date}
+            date={element.date }
             style={{ color: "#000000" }}
             iconStyle={
               element.icon === "work"
