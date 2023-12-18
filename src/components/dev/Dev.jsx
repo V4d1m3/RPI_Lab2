@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Dev.module.css";
-import { useTranslation } from "react-i18next";
+//import { useTranslation } from "react-i18next";
 
 const Dev = (props) => {
   return (

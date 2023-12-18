@@ -12,6 +12,7 @@ const PortalInfo = () => {
     <div className={s.wrapper}>
       <div className={s.name}>{t(name)}</div>
       <div className={s.disc}>{t(text)}</div>
+      <div className={s.decs}><h1>{t("description_1")}</h1></div>
     </div>
   );
 };

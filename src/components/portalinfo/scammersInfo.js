@@ -43,7 +43,7 @@ const scammersInfo = [
     name_en: "Sergey Mavrody",
     dateOfBirth: 1955,
     dateOfDeath: 2018,
-    someText: "Создатель всеми звестной пирамиды МММ.",
+    someText: "Создатель всеми звестной пирамиды МММ",
     photos: [ms1, ms2, ms3],
     links: ["https://www.youtube.com/embed/z42XT8KwXgU"],
     coordinates: {
@@ -60,9 +60,9 @@ const scammersInfo = [
     dateOfBirth: 1890,
     dateOfDeath: 1938,
     someText:
-      "«Продал» Белый дом. Попытался продать Статую Свободы.",
+      "«Продал» Белый дом. Попытался продать Статую Свободы",
     photos: [fua1, fua2, fua3],
-    links: ["https://youtu.be/Xj9tV30V26k?t=1924"],
+    links: ["https://www.youtube.com/embed/Xj9tV30V26k?t=1924"],
     //links: ["https://www.youtube.com/embed/z42XT8KwXgU"],
     coordinates: {
       longitude: 27.59492781890053,
@@ -78,9 +78,9 @@ const scammersInfo = [
     dateOfBirth: 1890,
     dateOfDeath: 1947,
     someText:
-      "Мошенник и аферист. Мировую известность приобрёл как «человек, продавший Эйфелеву башню. Дважды».",
+      "Мошенник и аферист. Мировую известность приобрёл как «человек, продавший Эйфелеву башню. Дважды»",
     photos: [lv1, lv2, lv3],
-    links: ["https://youtu.be/xSftC7sv_j8"],
+    links: ["https://www.youtube.com/embed/xSftC7sv_j8"],
     coordinates: {
       longitude: 27.59492781890053,
       latitude: 53.912542245793226,
