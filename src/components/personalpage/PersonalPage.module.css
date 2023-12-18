@@ -1,6 +1,8 @@
 .wrapper {
   text-align: center;
-  background-color: rgb(192, 168, 156);
+  background-image: url("/src/img/background/ggg.jpg");
+  background-size: 3%;
+ /* background-color: rgb(192, 168, 156);*/
 }
 
 .wrapper h1{
@@ -16,4 +18,16 @@
 .avatar {
   height: 200px;
   border: 2px solid rgb(248, 246, 246);
+}
+
+.ScammersName{
+
+}
+
+.BlockScammersName{
+    position: absolute;
+    display: flex;
+    height:50px;
+    width: 40px;
+    color: blue;
 }

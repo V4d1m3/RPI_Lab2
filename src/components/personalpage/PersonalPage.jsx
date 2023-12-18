@@ -17,7 +17,9 @@ const PersonalPage = (props) => {
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <div className={template.wrapper}>
-      <h1>{t(name)}</h1>
+      <div className="BlockScammersName">
+      <h1 className="ScammersName">{t(name)}</h1>
+      </div>
       <h4>
         ({props.info.dateOfBirth} - {props.info.dateOfDeath})
       </h4>
