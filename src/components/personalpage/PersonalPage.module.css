@@ -2,7 +2,6 @@
   text-align: center;
   background-image: url("/src/img/background/ggg.jpg");
   background-size: 3%;
- /* background-color: rgb(192, 168, 156);*/
 }
 
 .wrapper h1{
@@ -24,10 +23,10 @@
 
 }
 
-.BlockScammersName{
-    position: absolute;
-    display: flex;
-    height:50px;
-    width: 40px;
-    color: blue;
+.frame {
+    text-align: center;
+    height:auto;
+    width: auto;
+    background-color: black;
+   
 }
