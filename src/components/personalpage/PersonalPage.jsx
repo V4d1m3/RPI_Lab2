@@ -18,11 +18,13 @@ const PersonalPage = (props) => {
   return (
     <div className={template.wrapper}>
       <div className={template.frame}>
-          <h1 className="ScammersName">{t(name)}</h1>
+          <h1>{t(name)}</h1>
       </div>
-      <h4>
-        ({props.info.dateOfBirth} - {props.info.dateOfDeath})
-      </h4>
+      <div className={template.frameBirth}>
+        <h4>
+          ({props.info.dateOfBirth} - {props.info.dateOfDeath})
+        </h4>
+      </div>
       <img src={props.info.imgPath} alt="" className={template.avatar} />
       <Timeline info={props.info} />
       <Photos photos={props.info.photos} />
