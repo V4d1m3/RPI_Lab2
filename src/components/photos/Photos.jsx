@@ -23,10 +23,23 @@ const Photos = (props) => {
         <img src={tempImgSrc} alt="" />
         <CloseIcon onClick={() => setModel(false)} />
       </div>
-        
-  </div>
-  )
+
+      <div className={template.gallery}>
+        {props.photos.map((imgSrc, i) => {
+          let width = "100%";
+          return (
+            <div
+              className={template.pics}
+              key={i}
+              onClick={() => getImg(imgSrc)}
+            >
+              <img src={imgSrc} alt="" style={{ width: width }} />
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Photos;
-/*Need to update*/
