@@ -4,18 +4,18 @@
   column-count: 3;
   padding: 20px 12px;
   
- background-color: #ffffff;
+ background-color: rgb(56, 38, 28);
   
 }
 
 .wrapper{
-  background-color: #ffffff;
+  background-color: rgb(56, 38, 28);
   margin-top: 20px;
 }
 .wrapper h1{
   padding-top: 10px;
-  background-color: #ffffff;
-  color:#353535;
+  background-color: rgb(56, 38, 28);
+  color:#ffffff;
   font-family: Mysteria;
 }
 
