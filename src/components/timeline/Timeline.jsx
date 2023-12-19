@@ -9,9 +9,9 @@ import { ReactComponent as SchoolIcon } from "../../img/svgs/book.svg";
 import { ReactComponent as ChildIcon } from "../../img/svgs/cubes.svg";
 
 const Timeline = (props) => {
-  let workIconStyles = { background: "#835229" };
-  let schoolIconStyles = { background: "#b89a7e" };
-  let childIconStyles = { background: "#a36b38" };
+  let workIconStyles = { background: "#ffffff" };
+  let schoolIconStyles = { background: "#ffffff" };
+  let childIconStyles = { background: "#000000" };
 
   return (
     <VerticalTimeline>
@@ -19,8 +19,8 @@ const Timeline = (props) => {
         return (
           <VerticalTimelineElement
             key={element.id}
-            date={element.date }
-            style={{ color: "#000000" }}
+            date={element.date}
+            style={{ color: "#ce8f00", background: "#000000"}}
             iconStyle={
               element.icon === "work"
                 ? workIconStyles
