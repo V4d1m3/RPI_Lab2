@@ -31,8 +31,8 @@ const scammersInfo = [
     photos: [fa1, fa2, fa3],
     links: ["https://www.youtube.com/embed/vsMydMDi3rI"],
     coordinates: {
-      longitude: 27.59492781890053,
-      latitude: 53.912542245793226,
+      longitude: -73.87635533192338,
+      latitude: 40.857793998736895,
     },
     url: "/abignale",
   },
@@ -47,8 +47,8 @@ const scammersInfo = [
     photos: [ms1, ms2, ms3],
     links: ["https://www.youtube.com/embed/z42XT8KwXgU"],
     coordinates: {
-      longitude: 27.59492781890053,
-      latitude: 53.912542245793226,
+      longitude: 37.610627018232684,
+      latitude: 55.75375360720417,
     },
     url: "/mavrody",
   },
@@ -65,8 +65,8 @@ const scammersInfo = [
     links: ["https://www.youtube.com/embed/Xj9tV30V26k?t=1924"],
     //links: ["https://www.youtube.com/embed/z42XT8KwXgU"],
     coordinates: {
-      longitude: 27.59492781890053,
-      latitude: 53.912542245793226,
+      longitude: -79.38905441974848,
+      latitude: 43.65406952810351, 
     },
     url: "/furguson",
   },
@@ -82,8 +82,8 @@ const scammersInfo = [
     photos: [lv1, lv2, lv3],
     links: ["https://www.youtube.com/embed/xSftC7sv_j8"],
     coordinates: {
-      longitude: 27.59492781890053,
-      latitude: 53.912542245793226,
+      longitude: -102.16323415414455,
+      latitude: 40.08059341265222, 
     },
     url: "/lustig",
   },

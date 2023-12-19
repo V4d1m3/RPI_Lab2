@@ -15,7 +15,7 @@ const Workplace = (props) => {
   return (
     <div className={s.wrapper}>
       <h1>{t("place_of_work")}</h1>
-      <GoogleMap zoom={14} center={center} mapContainerClassName={s.container}>
+      <GoogleMap zoom={5} center={center} mapContainerClassName={s.container}>
         <MarkerF position={center} />
       </GoogleMap>
     </div>
