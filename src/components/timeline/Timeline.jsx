@@ -11,7 +11,7 @@ import { ReactComponent as ChildIcon } from "../../img/svgs/cubes.svg";
 const Timeline = (props) => {
   let workIconStyles = { background: "#ffffff" };
   let schoolIconStyles = { background: "#ffffff" };
-  let childIconStyles = { background: "#000000" };
+  let childIconStyles = { background: "#ffffff" };
 
   return (
     <VerticalTimeline>
